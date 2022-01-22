@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: false
 ---
 
-Co - First authors marked as *
+Co - First authors are marked as *
 
 **COVID-19 dynamics after a national immunization program in Israel**\
 Hagai Rossman, Smadar Shilo, Tomer Meir, Malka Gorfine, Uri Shalit, Eran Segal.\
