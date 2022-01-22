@@ -14,11 +14,11 @@ _Nature Medicine 2021_ [[paper](https://www.nature.com/articles/s41591-021-01337
 [[press: Financial times](https://www.ft.com/content/0cdc8563-1e6d-4089-bedb-b0f675c0d683)]
 
 **Hospital load and increased COVID-19 related mortality in Israel**\
-Hagai Rossman*, Tomer Meir *, Jonathan Somer, Smadar Shilo, Rom Gutman, Asaf Ben-Arie, Eran Segal, Uri Shalit, Malka Gorfine.\
+Hagai Rossman *, Tomer Meir *, Jonathan Somer, Smadar Shilo, Rom Gutman, Asaf Ben-Arie, Eran Segal, Uri Shalit, Malka Gorfine.\
 _Nature Communications 2021_ [[paper](https://www.nature.com/articles/s41467-021-22214-z)] [[code](https://github.com/tomer1812/covid19-israel-multi-state-hospitalization-model)] [[press](https://www.vox.com/2021/1/13/22224445/covid-19-deaths-in-us-hospital-beds-icu)]
 
 **3D Convolutional Sequence to Sequence Model for Vertebral Compression Fractures Identification in CT**\
-David Chettrit*, Tomer Meir *, Hila Lebel, Mila Orlovsky, Ronen Gordon, Ayelet Akselrod-Ballin, Amir Bar.\
+David Chettrit *, Tomer Meir *, Hila Lebel, Mila Orlovsky, Ronen Gordon, Ayelet Akselrod-Ballin, Amir Bar.\
 _MICCAI 2020_ [[paper](https://www.springerprofessional.de/en/3d-convolutional-sequence-to-sequence-model-for-vertebral-compre/18443596)]]
 
 **Building an International Consortium for Tracking Coronavirus Health Status**\
