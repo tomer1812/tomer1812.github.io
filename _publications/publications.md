@@ -18,46 +18,14 @@ _Nature Medicine 2021_ [[paper](https://www.nature.com/articles/s41591-021-01337
 Hagai Rossman, Tomer Meir, Jonathan Somer, Smadar Shilo, Rom Gutman, Asaf Ben-Arie, Eran Segal, Uri Shalit, Malka Gorfine.\
 _Nature Communications 2021_ [[paper](https://www.nature.com/articles/s41467-021-22214-z)] [[code](https://github.com/tomer1812/covid19-israel-multi-state-hospitalization-model)] [[press](https://www.vox.com/2021/1/13/22224445/covid-19-deaths-in-us-hospital-beds-icu)]
 
-**Prediction of Childhood obesity from nationwide health records**\
-Hagai Rossman, Smadar Shilo, Shiri Hazan, Nitzan Artzi, Eran Hadar, Ran Balicer, Becca Feldman, Arnon Wiznitzer, Eran Segal.\
-_Journal of Pediatrics 2021_ [[paper](https://www.jpeds.com/article/S0022-3476(21)00119-0/)]
-
-**Nowcasting the spread of SARS-CoV-2**\
-Hagai Rossman & Eran Segal.\
-_Nature Microbiology 2021_ [[paper](https://www.nature.com/articles/s41564-021-01035-2)]
-
-**Signals of hope: Gauging the impact of a rapid national vaccination campaign**\
-Smadar Shilo, Hagai Rossman, Eran Segal.\
-_Nature Reviews Immunology 2021_ [[paper](https://www.nature.com/articles/s41577-021-00531-0)]
-
-**A framework for identifying regional outbreak and spread of COVID-19 from one-minute population-wide surveys**\
-Hagai Rossman, Ayya Keshet, Smadar Shilo, Amir Gavrieli, Tal Bauman, Ori Cohen, Ran Balicer, Benjamin Geiger, Yuval Dor, Eran Segal.\
-_Nature Medicine 2020_ [[paper](https://www.nature.com/articles/s41591-020-0857-9)]
-
-**Longitudinal symptom dynamics of COVID-19 infection**\
-Barak Mizrahi, Smadar Shilo, Hagai Rossman, Nir Kalkstein, Karni Marcus, Yael Barer, Ayya Keshet, Na'ama Shamir-Stein, Varda Shalev, Anat Ekka Zohar, Gabriel Chodick, Eran Segal.\
-_Nature Communications 2020_ [[paper](https://www.nature.com/articles/s41467-020-20053-y)] [[blog](https://naturemicrobiologycommunity.nature.com/posts/tracking-the-longitudinal-dynamics-of-symptoms-of-covid-19-infection-in-primary-care)]
-
 **Building an International Consortium for Tracking Coronavirus Health Status**\
 Segal et. al.\
 _Nature Medicine 2020_ [[paper](https://www.nature.com/articles/s41591-020-0929-x)]
-
-**Prediction of gestational diabetes based on nationwide electronic health records**\
-Nitzan Artzi, Smadar Shilo, Eran Hadar, Hagai Rossman, Shiri Hazan, Avi Ben-Haroush, Ran Balicer, Becca Feldman, Arnon Wiznitzer, Eran Segal.\
-_Nature Medicine 2020_ [[paper](https://www.nature.com/articles/s41591-019-0724-8)]
-
-**Axes of a revolution: challenges and promises of big data in healthcare**\
-Smadar Shilo, Hagai Rossman, Eran Segal.\
-_Nature Medicine 2020_ [[paper](https://www.nature.com/articles/s41591-019-0727-5)]
 
 **A Prediction Model to Prioritize Individuals for a SARS-CoV-2 Test Built from National Symptom Surveys**\
 Saar Shoer, Tal Karady, Ayya Keshet, Smadar Shilo, Hagai Rossman, Amir Gavrieli, Tomer Meir, Amit Lavon, Dmitry Kolobkov, Iris Kalka, Anastasia Godneva, Ori Cohen, Adam Kariv, Ori Hoch, Mushon Zer-Aviv, Noam Castel, Anat Ekka Zohar, Angela Irony, Benjamin Geiger, Dorit Hizi, Varda Shalev, Ran Balicer, Eran Segal.\
 _Med 2020_ [[paper](https://www.sciencedirect.com/science/article/pii/S2666634020300192)]
 
-**Cohort profile: 10K - a large-scale prospective longitudinal study in Israel**\
-Smadar Shilo, Noam Bar, Ayya Keshet, Yeela Talmor-Barkan, Hagai Rossman, Anastasia Godneva, Yaron Aviv, Yochai Edlitz, Lee Reicher, Dmitry Kolobkov, Bat Chen Wolf, Maya Lotan-Pompan, Kohava Levi, Ori Cohen, Hila Saranga, Adina Weinberger, Eran Segal.\
-_European Journal of Epidemiology 2021_ [[paper](https://link.springer.com/article/10.1007/s10654-021-00753-5)]
- 
 **Stress-related emotional and behavioural impact following the first COVID-19 outbreak peak**\
 Asaf Benjamin, Yael Kuperman, Noa Eren, Ron Rotkopf, Maya Amitai, Hagai Rossman, Smadar Shilo, Tomer Meir, Ayya Keshet, Orit Nuttman-Shwartz, Eran Segal & Alon Chen. \
 _Molecular Psychiatry 2021_ [[paper](https://www.nature.com/articles/s41380-021-01219-6)]
@@ -66,16 +34,7 @@ _Molecular Psychiatry 2021_ [[paper](https://www.nature.com/articles/s41380-021-
 Sudre, Keshet, et. al.\
 _Lancet Digital Health 2021_ [[paper](https://www.sciencedirect.com/science/article/pii/S2589750021001151)]
 
-**Estimating Heritability of Glycaemic Response to Metformin using Nationwide Electronic Health Records and Population-Sized Pedigree**\
-Iris Kalka, Amir Gavrieli, Smadar Shilo, Hagai Rossman, Nitzan Artzi, Nancy-Sarah Yacovzada, Eran Segal.\
-_Communications medicine 2021_ [[paper](https://www.nature.com/articles/s43856-021-00058-4)]
-
-
 ## Preprints
-
-**Estimating the effect of cesarean delivery on long term childhood health across two countries**\
-Ayya Keshet, Hagai Rossman, Smadar Shilo, Shiri Barbash-Hazan, Guy Amit, Maytal Bivas-Benita, Chen Yanover, Irena Girshovitz, Pinchas Akiva, Avi Ben-Haroush, Eran Hadar, Arnon Wiznitzer, Eran Segal.\
-[[preprint](https://www.medrxiv.org/content/10.1101/2020.12.15.20248167v1)] [[code](https://github.com/ayya-keshet/Causal-Survival-Analysis)]
 
 **The effect of a national lockdown in response to COVID-19 pandemic on the prevalence of clinical symptoms in the population**\
 Ayya Keshet, Amir Gavrieli, Hagai Rossman, Smadar Shilo, Tomer Meir, Tal Karady, Amit Lavon, Dmitry Kolobkov, Iris Kalka, Saar Shoer, Anastasia Godneva, Ori Cohen, Adam Kariv, Ori Hoch, Mushon Zer-Aviv, Noam Castel, Anat Ekka Zohar, Angela Irony, Benjamin Geiger, Yuval Dor, Dorit Hizi, Ran Balicer, Varda Shalev, Eran Segal.\
@@ -84,18 +43,6 @@ Ayya Keshet, Amir Gavrieli, Hagai Rossman, Smadar Shilo, Tomer Meir, Tal Karady,
 
 
 ## Conference & poster presentations
-
-Childhood obesity prediction and risk factor analysis from nationwide health records\
-Hagai Rossman, Smadar Shilo, Nitzan Artzi, Eran Segal.\
-Neural Information Processing Systems (NeurIPS) [Machine Learning in Health workshop](https://arxiv.org/abs/1811.07216), Montreal 2018 
-
-Learning metabolic representations of health and disease in multi-omic datasets\
-Noam Bar, Hagai Rossman, Amir gavrieli, Uri Shacham, Eran Segal.\
-Neural Information Processing Systems (NeurIPS) [Learning Meaningful Representations of Life workshop](https://www.lmrl.org/lmrl2019), Vancouver 2019
-
-Leveraging nationwide data and domain expertise to infer causal effect of cesarean section birth on long term pediatric health\
-Ayya Keshet, Hagai Rossman, Shiri Hazan, Smadar Shilo, Eran Hadar, Avi Ben-Haroush, Arnon Wiznitzer, Eran Segal.\
-[Machine Learning in Real Life workshop ICLR 2020](https://sites.google.com/nyu.edu/ml-irl-2020/home)
 
 Rapid deployment of a nationwide, one-minute, online symtpoms survey during the outbreak and spread of COVID-19 - framework and application
 Keshet et. al.
