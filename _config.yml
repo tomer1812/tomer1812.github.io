@@ -249,7 +249,7 @@ defaults:
   # _conferences
   - scope:
       path: ""
-      type: conferences
+      type: publications
     values:
       layout: single
       author_profile: true
