@@ -5,9 +5,6 @@ permalink: /publications/
 author_profile: false
 ---
 
-
-## Publications
-
 * Co - First author
 
 **COVID-19 dynamics after a national immunization program in Israel**\
