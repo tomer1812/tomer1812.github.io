@@ -77,7 +77,7 @@ analytics:
   google:
     tracking_id          :
 
-ga_tracking_id: G-7PX27W4GGB
+ga_tracking_id: "G-7PX27W4GGB"
 
 
 # Site Author
