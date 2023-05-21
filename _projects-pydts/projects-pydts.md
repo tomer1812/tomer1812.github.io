@@ -10,7 +10,7 @@ author_profile: false
 Time-to-event analysis (survival analysis) is used when the outcome of interest is the time until a pre-specified event occurs. 
 Sometimes, the event can be one of several distinct event types, known as competing risks (events).
 
-![Discrete-time](Discrete-time.png)
+<img src="Discrete-time.png" alt="Discrete-time" width="500">
 <br>
 *Observed number of events in each discrete-time for two competing events*
 
@@ -33,12 +33,13 @@ In addition, we present PyDTS, an open-source Python package for discrete-time s
 
 
 
-![pydts_performance](pydts_performance.png)
+<img src="pydts_performance.png" alt="pydts_performance" width="500">
 <br>
 *Simulation results - comparison of performance between the proposed two-step approach and the one of (Lee et al., 2018)*
 
 
-![pydts_fitting_time](fitting_time_fig.png)
+<img src="fitting_time_fig.png" alt="pydts_fitting_time" width="500">
+
 <br>
 *Simulation results - comparison of fitting time between the proposed two-step approach and the one of (Lee et al., 2018)*
 
