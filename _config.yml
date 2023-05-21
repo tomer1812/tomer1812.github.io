@@ -125,7 +125,6 @@ include:
   - _pages
   - files
   - images
-  - _projects-pydts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -192,6 +191,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   conferences:
+    output: true
+    permalink: /:collection/:path/
+  projects-pydts:
     output: true
     permalink: /:collection/:path/
 
