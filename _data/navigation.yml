@@ -2,6 +2,9 @@
 main:
   - title: "Publications"
     url: /publications/
+
+  - title: "PyDTS Project"
+    url: /projects-pydts/
     
   - title: "Conferences"
     url: /conferences/    

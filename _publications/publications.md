@@ -39,10 +39,6 @@ _Lancet Digital Health 2021_ [[paper](https://www.sciencedirect.com/science/arti
 
 ## Preprints
 
-**The effect of a national lockdown in response to COVID-19 pandemic on the prevalence of clinical symptoms in the population**\
-Ayya Keshet, Amir Gavrieli, Hagai Rossman, Smadar Shilo, Tomer Meir, Tal Karady, Amit Lavon, Dmitry Kolobkov, Iris Kalka, Saar Shoer, Anastasia Godneva, Ori Cohen, Adam Kariv, Ori Hoch, Mushon Zer-Aviv, Noam Castel, Anat Ekka Zohar, Angela Irony, Benjamin Geiger, Yuval Dor, Dorit Hizi, Ran Balicer, Varda Shalev, Eran Segal.\
-[[preprint](https://www.medrxiv.org/content/10.1101/2020.04.27.20076000v2)]
-
 **PyDTS: A Python Package for Discrete-Time Survival (Regularized) Regression with Competing Risks**\
 Tomer Meir, Rom Gutman, Malka Gorfine
 [[preprint](https://arxiv.org/abs/2204.05731)]
@@ -52,6 +48,10 @@ Tomer Meir, Rom Gutman, Malka Gorfine
 **Discrete-time Competing-Risks Regression with or without Penalization**\
 Tomer Meir, Malka Gorfine
 [[preprint](https://arxiv.org/abs/2303.01186)]
+
+**The effect of a national lockdown in response to COVID-19 pandemic on the prevalence of clinical symptoms in the population**\
+Ayya Keshet, Amir Gavrieli, Hagai Rossman, Smadar Shilo, Tomer Meir, Tal Karady, Amit Lavon, Dmitry Kolobkov, Iris Kalka, Saar Shoer, Anastasia Godneva, Ori Cohen, Adam Kariv, Ori Hoch, Mushon Zer-Aviv, Noam Castel, Anat Ekka Zohar, Angela Irony, Benjamin Geiger, Yuval Dor, Dorit Hizi, Ran Balicer, Varda Shalev, Eran Segal.\
+[[preprint](https://www.medrxiv.org/content/10.1101/2020.04.27.20076000v2)]
 
 
 ## Conference & poster presentations
