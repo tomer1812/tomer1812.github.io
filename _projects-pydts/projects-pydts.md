@@ -5,7 +5,6 @@ permalink: /projects-pydts/
 author_profile: false
 ---
 
-# Discrete-time Survival Analysis with Competing Risks
 
 Time-to-event analysis (survival analysis) is used when the outcome of interest is the time until a pre-specified event occurs. 
 Sometimes, the event can be one of several distinct event types, known as competing risks (events).
