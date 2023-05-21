@@ -1,7 +1,6 @@
 ---
 layout: archive
 title: "Discrete-time Survival Analysis with Competing Risks"
-date: 2023
 permalink: /projects-pydts/
 author_profile: false
 ---
