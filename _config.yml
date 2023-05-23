@@ -196,6 +196,9 @@ collections:
   projects-pydts:
     output: true
     permalink: /:collection/:path/
+  projects-covid:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
