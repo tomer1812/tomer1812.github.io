@@ -3,8 +3,11 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "PyDTS Project"
+  - title: "PyDTS"
     url: /projects-pydts/
-    
+
+  - title: "COVID-19 Response"
+    url: /projects-covid/
+
   - title: "Conferences"
     url: /conferences/    
