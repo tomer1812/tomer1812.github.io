@@ -14,8 +14,8 @@ We collected and analyzed the data to study [the effect of a national lockdown o
 At that time, there was a limited number of daily COVID-19 tests available in Israel. We used the symptoms report to build [a prediction model to prioritize individuals for testing](https://www.sciencedirect.com/science/article/pii/S2666634020300192) (Shoer et al. 2020). 
 Later, by using [data collected from three COVID-19 surveillance platforms in the USA, the UK, and Israel](https://www.sciencedirect.com/science/article/pii/S2589750021001151) (Sudre and Keshet et al. 2021), we were able to further learn about the symptoms that were consistently associated across different countries with a positive COVID-19 test.
 We also leveraged the collected data to study the [Stress-related emotional and behavioural impact following the first COVID-19 outbreak peak](https://www.nature.com/articles/s41380-021-01219-6) (Benjamin et al. 2021).
-<img src="symptoms-survey.png" alt="Survey" width="1200">
-*Figure 1. National daily symptoms survey.*
+<img src="symptoms-survey.png" alt="Survey" width="1500">
+*Figure 1. National daily [symptoms survey](https://coronaisrael.org/en/).*
 
 
 With the rapid influx of COVID-19 cases leading to an overwhelming burden on healthcare systems, we developed machine learning models to forecast future hospitalizations and deaths. 
