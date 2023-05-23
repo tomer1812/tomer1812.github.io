@@ -9,7 +9,8 @@ redirect_from:
 ---
 
 
-I am a Ph.D. student at ShalitLab at the Faculty of Data and Decision Sciences, Technion - Israel Institute of Technology. We specialize in machine learning and causal inference in healthcare.
+I am a Ph.D. student at ShalitLab at the Faculty of Data and Decision Sciences, Technion - Israel Institute of Technology. 
+We specialize in machine learning and causal inference in healthcare.
 
 My research has two primary objectives:
 
@@ -20,6 +21,10 @@ I am a machine/deep learning researcher and developer experienced in various dat
 
 Prior to my Ph.D. journey, I was a researcher at Segal Lab, Weizmann Institute of Science (2020-2021). [Throughout the COVID-19 pandemic](https://tomer1812.github.io/projects-covid/), most of my effort was to develop strategic tools for public-health officials and policymakers. We devised national symptoms surveys for identifying virus spread clusters, developed machine-learning models for predicting the future number of hospitalized patients and deaths, analysed what-if scenarios that project the consequences of various national strategies, and provided real-time assessment of vaccine effectiveness at the national level.
 
-Before that, I was a deep learning researcher at Zebra Medical Vision (2018-2019), where I developed deep-learning algorithms for the automated analysis of medical imaging, primarily CT scans and X-rays. These algorithms are now being employed by healthcare providers to enhance population health. One of the main projects I worked on was the development of an automatic deep-learning-based system to identify [Vertebral Compression Fractures (VCF)](https://tomer1812.github.io/projects-vcf/) in Computed Tomography (CT) images. With an osteoporosis-related fracture occurring every three seconds worldwide, early detection of VCF is crucial to initiate preventive treatments. The system I developed has the potential to revolutionize osteoporosis clinical management, optimize treatment pathways, and alter the trajectory of one of the most challenging diseases of our time.
+Before that, I was a deep learning researcher at Zebra Medical Vision (2018-2019), where I developed deep-learning algorithms for the automated analysis of medical imaging, primarily CT scans and X-rays. 
+These algorithms are now being employed by healthcare providers to enhance population health. 
+One of the main projects I worked on was the development of an automatic deep-learning-based system to identify [Vertebral Compression Fractures (VCF)](https://tomer1812.github.io/projects-vcf/) in Computed Tomography (CT) images. 
+With an osteoporosis-related fracture occurring every three seconds worldwide, early detection of VCF is crucial to initiate preventive treatments. 
+The system we developed has the potential to revolutionize osteoporosis clinical management, optimize treatment pathways, and alter the trajectory of one of the most challenging diseases of our time.
 
 I invite you to check out the dedicated pages for each of the main projects I worked on. 

@@ -18,5 +18,5 @@ We evaluate several model architectures and representations and present a framew
 
 
 ## Key Contributions
-- The proposed system has been experimentally deployed in healthcare providers to support clinical osteoporosis management. 
+- The proposed system has been employed by healthcare providers to support clinical osteoporosis management. 
 - Evaluation of different architectures and representations.
