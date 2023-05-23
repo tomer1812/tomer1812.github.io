@@ -199,6 +199,10 @@ collections:
   projects-covid:
     output: true
     permalink: /:collection/:path/
+  projects-vcf:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
