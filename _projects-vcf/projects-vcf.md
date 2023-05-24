@@ -22,5 +22,5 @@ We evaluate several model architectures and representations. In addition, we pre
 
 ## Key Contributions
 - The proposed system has been employed by healthcare providers to support clinical osteoporosis management. 
-- State of the art results in VCF classification.
+- State of the art performance in VCF classification.
 - Evaluation of different architectures and representations.
