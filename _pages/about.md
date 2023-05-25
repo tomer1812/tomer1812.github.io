@@ -24,7 +24,7 @@ We devised national symptoms surveys for identifying virus spread clusters, deve
 
 Before that, I was a deep learning researcher at Zebra Medical Vision (2018-2019), where I developed deep-learning algorithms for the automated analysis of medical imaging, primarily CT scans and X-rays. 
 For example, early detection of vertebral compression fractures, which often remain undiagnosed, is crucial to initiate preventive treatments for osteoporosis.
-One of the main projects I worked on was the development of an automatic deep-learning-based system to identify [Vertebral Compression Fractures (VCF)](https://tomer1812.github.io/projects-vcf/) in Computed Tomography (CT) images. 
+One of the main projects I worked on was the development of an automatic deep-learning-based system to identify [vertebral compression fractures](https://tomer1812.github.io/projects-vcf/) in computed tomography (CT) images. 
 These algorithms are now being employed by healthcare providers to enhance population health. 
 
 I invite you to check out the dedicated pages for each of the main projects I worked on. 
