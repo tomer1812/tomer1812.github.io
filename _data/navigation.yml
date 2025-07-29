@@ -6,6 +6,9 @@ main:
   - title: "PyDTS"
     url: /projects-pydts/
 
+  - title: "HTE in TTE Data"
+    url: /projects-hte-tte/
+
   - title: "COVID-19 Response"
     url: /projects-covid/
 
