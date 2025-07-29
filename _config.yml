@@ -193,6 +193,9 @@ collections:
   conferences:
     output: true
     permalink: /:collection/:path/
+  projects-hte-tte:
+    output: true
+    permalink: /:collection/:path/
   projects-pydts:
     output: true
     permalink: /:collection/:path/
@@ -202,7 +205,6 @@ collections:
   projects-vcf:
     output: true
     permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
