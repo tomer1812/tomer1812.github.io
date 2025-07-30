@@ -18,8 +18,8 @@ My research has two primary objectives:
 I am experienced in various data modalities such as Electronic Health Records (EHRs), time series data, time-to-event data, tabular data, and imaging.
 
 Some of my Ph.D. projects are presented here in short, with references to the full papers:
-- [Heterogeneous treatment effects in time-to-event data]((https://tomer1812.github.io/projects-hte-tte/))
-- [Discrete-time survival analysis with competing events: methods and tools]((https://tomer1812.github.io/projects-pydts/))
+- [Heterogeneous treatment effects in time-to-event data](https://tomer1812.github.io/projects-hte-tte/)
+- [Discrete-time survival analysis with competing events: methods and tools](https://tomer1812.github.io/projects-pydts/)
 
 Prior to my Ph.D. journey, I was a researcher at Segal Lab, Weizmann Institute of Science (2020-2021). [Throughout the COVID-19 pandemic](https://tomer1812.github.io/projects-covid/), most of my effort was to develop strategic tools for public-health officials and policymakers. 
 We devised national symptoms surveys for identifying virus spread clusters, developed machine-learning models for predicting the future number of hospitalized patients and deaths, analysed what-if scenarios that project the consequences of various national strategies, and provided real-time assessment of vaccine effectiveness at the national level.
