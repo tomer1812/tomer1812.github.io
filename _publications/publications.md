@@ -12,13 +12,15 @@ author_profile: false
 **Heterogeneous Treatment Effect in Time-to-Event Outcomes: Harnessing Censored Data with Recursively Imputed Trees**\
 Tomer Meir, Uri Shalit, Malka Gorfine\
 _42nd International Conference on Machine Learning (ICML 2025)_
-[[paper](https://arxiv.org/abs/2502.01575)] [[ICML 2025 details](https://icml.cc/virtual/2025/poster/45413)]
-
+[[ICML 2025](https://icml.cc/virtual/2025/poster/45413)]
+[[preprint](https://arxiv.org/abs/2502.01575)] 
+[[code](https://github.com/tomer1812/mistr)]
 
 **Discrete-time Competing-Risks Regression with or without Penalization**\
 Tomer Meir, Malka Gorfine\
 _Biometrics 2025_
 [[paper](https://academic.oup.com/biometrics/article/81/2/ujaf040/8120014)]
+[[code](https://github.com/tomer1812/DiscreteTimeSurvivalPenalization)]
 
 **Hospital load and increased COVID-19 related mortality in Israel**\
 Hagai Rossman *, Tomer Meir *, Jonathan Somer, Smadar Shilo, Rom Gutman, Asaf Ben-Arie, Eran Segal, Uri Shalit, Malka Gorfine.\
@@ -63,17 +65,5 @@ _Lancet Digital Health 2021_ [[paper](https://www.sciencedirect.com/science/arti
 **The effect of a national lockdown in response to COVID-19 pandemic on the prevalence of clinical symptoms in the population**\
 Ayya Keshet, Amir Gavrieli, Hagai Rossman, Smadar Shilo, Tomer Meir, Tal Karady, Amit Lavon, Dmitry Kolobkov, Iris Kalka, Saar Shoer, Anastasia Godneva, Ori Cohen, Adam Kariv, Ori Hoch, Mushon Zer-Aviv, Noam Castel, Anat Ekka Zohar, Angela Irony, Benjamin Geiger, Yuval Dor, Dorit Hizi, Ran Balicer, Varda Shalev, Eran Segal.\
 [[preprint](https://www.medrxiv.org/content/10.1101/2020.04.27.20076000v2)]
-
-
-## Conference & poster presentations
-
-Israel’s Best Practices in Enhancing Resilience – the Case of Covid-19, North Atlantic Treaty Organization (NATO), Online Webinar, January 2021, Invited talk. 
-
-Covid 19 data analysis and modeling, 15th NATO Operations Research & Analysis, November 2021, Invited talk.
-
-PyDTS: A Python Package for Discrete-Time Survival Analysis with Competing Risks, Machine Learning for Health Care (MLHC), North Carolina USA and Online, August 2022.
-
-Discrete-time Competing-Risks Survival Analysis with or without Penalization, Israeli Statistics Association (ISA), Israel, June 2023.
-
 
 
