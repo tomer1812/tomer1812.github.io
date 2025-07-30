@@ -19,7 +19,7 @@ The proposed approach offers two key advantages over existing procedures:
 1. It accelerates the estimation process.
 2. It allows for straightforward integration and application of widely used regularized regression and screening methods.
 
-In our work, [Discrete-time Competing-Risks Regression with or without Penalization](https://arxiv.org/abs/2303.01186) (Meir and Gorfine, 2023) we illustrate the benefits of our proposed approach by conducting a comprehensive simulation study. Additionally, we showcase the utility of our procedure by estimating a survival model for the length of stay of patients hospitalized in the intensive care unit, considering three competing events: discharge to home, transfer to another medical facility, and in-hospital death.
+In our work, [Discrete-time Competing-Risks Regression with or without Penalization](https://academic.oup.com/biometrics/article/81/2/ujaf040/8120014) (Meir and Gorfine, 2025) we illustrate the benefits of our proposed approach by conducting a comprehensive simulation study. Additionally, we showcase the utility of our procedure by estimating a survival model for the length of stay of patients hospitalized in the intensive care unit, considering three competing events: discharge to home, transfer to another medical facility, and in-hospital death.
 
 In addition, we present PyDTS, an open-source Python package for discrete-time survival analysis with competing risks. We present PyDTS along with usage examples in [PyDTS: A Python Package for Discrete-Time Survival (Regularized) Regression with Competing Risks](https://arxiv.org/abs/2204.05731) (Meir et al. 2022) 
 
