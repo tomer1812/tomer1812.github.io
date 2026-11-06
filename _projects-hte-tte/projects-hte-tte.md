@@ -1,24 +1,30 @@
 ---
-layout: archive
-title: "Heterogeneous Treatment Effect in Time-to-Event Outcomes: Harnessing Censored Data with Recursively Imputed Trees"
+layout: research
+seo_title: "MISTR: Treatment Effects in Survival Data | Tomer Meir"
+title: "Personalized treatment effects with censored outcomes"
 permalink: /projects-hte-tte/
 author_profile: true
+excerpt: "MISTR: estimating heterogeneous treatment effects when survival outcomes are incompletely observed."
 ---
 
-Which cancer treatment would lead to longer survival for each patient? Knowing this would allow us to select the most effective treatment per individual, optimizing outcomes. However, estimating treatment effects is challenging because observed data typically show outcomes for only one treatment per person. Moreover, when the outcome is time until an event like patient death, data are often incomplete due to “right-censoring” – for instance, when subjects drop out or monitoring time is limited.
+**Which patients benefit most from a treatment, and by how much?** For survival outcomes, that question is difficult because follow-up often ends before the event occurs. These right-censored observations contain useful information that treatment-effect models need to account for.
 
-To address this, we developed MISTR, a new method that constructs multiple datasets with plausible imputations for missing event times. It produces estimates using each imputed dataset and combines them for accurate, personalized treatment effect estimates. Furthermore, most existing approaches require detailed patient characteristics, which are sometimes unavailable. MISTR can bypass this by leveraging “instrumental variables,” a powerful approach for estimating treatment effects without full patient data. We tested MISTR using simulations and real-world medical and economic datasets, demonstrating its superior performance over existing methods, especially under challenging conditions like heavy censoring and unobserved crucial individual characteristics.
+We developed **MISTR (Multiple Imputation for Survival Treatment Response)**. It uses recursively imputed survival trees to create plausible completed datasets, estimates treatment effects in each, and combines the results. This avoids directly estimating the censoring distribution and makes existing treatment-effect learners usable with censored outcomes.
 
+## Evidence and contribution
 
-## Key Contributions
-- MISTR eliminates the need for estimating the censoring mechanism and thus expands the range of cases that can be effectively addressed. 
-- MISTR outperforms other existing approaches, especially in heavy censoring rates.
-- MISTR can incorporate an instrumental variable for estimating HTE in presence of unobserved confounding.
+- Improved estimation under heavy censoring in simulations and semi-synthetic experiments based on MIMIC-IV patient data.
+- An application to the ACTG 175 HIV trial, estimating how treatment benefits vary with patient characteristics.
+- An extension for unobserved confounding when a valid instrumental variable is available, evaluated on an unemployment-benefit dataset.
 
-The full paper details are available at [ICML 2025 website](https://icml.cc/virtual/2025/poster/45413) and [arXiv](https://arxiv.org/abs/2502.01575) 
+<img src="figure1.png" alt="MISTR workflow: multiply impute censored survival outcomes, estimate treatment effects, and combine estimates" width="600">
 
-<img src="figure1.png" alt="Heterogeneous Treatment Effect in Time-to-Event Data" width="600">
-<br>
-*Figure 1. Our goal is to estimate the heterogeneous treatment effect (HTE), defined as the expected difference in survival times (or their transformation) with and without treatment, conditional on a set of covariates. We propose a multiple-imputation-based estimator that effectively leverages censored observations, outperforms existing methods, and is applicable in settings with instrumental variable adjustment for unobserved confounders.*
+*Multiple imputation makes incomplete survival outcomes usable for heterogeneous treatment-effect estimation.*
 
+## Paper and code
 
+**Heterogeneous Treatment Effect in Time-to-Event Outcomes: Harnessing Censored Data with Recursively Imputed Trees**\
+Tomer Meir, Uri Shalit, Malka Gorfine\
+*ICML, 2025*
+
+[Paper](https://arxiv.org/abs/2502.01575) · [ICML](https://icml.cc/virtual/2025/poster/45413) · [Code](https://github.com/tomer1812/mistr)

@@ -1,26 +1,28 @@
 ---
-layout: archive
-title: "Vertebral Compression Fracture Identification from Computed Tomography"
+layout: research
+seo_title: "Deep Learning for Vertebral Fracture Detection | Tomer Meir"
+title: "Detecting vertebral fractures in CT"
 permalink: /projects-vcf/
 author_profile: true
+excerpt: "A compact spine representation and 3D sequence model for vertebral compression fracture detection."
 ---
 
-An osteoporosis-related fracture occurs every three seconds worldwide, affecting one in three women and one in five men aged over 50. 
-The early detection of at-risk patients facilitates effective and well evidenced preventative interventions, reducing the incidence of major osteoporotic fractures. 
-In [this study](https://arxiv.org/abs/2010.03739) (Chettrit and Meir et al., 2020), published in proceedings of MICCAI (2020) conference, we present an automatic system for identification of vertebral compression fractures (VCF) on Computed Tomography (CT) images.
-VCF are a medical condition where one or more vertebrae in the spine collapse. This condition, which often remains undiagnosed, can serve as an early indicator for osteoporosis and can initiate treatment.
+**Routine CT scans can reveal vertebral compression fractures that otherwise go undiagnosed.** Identifying them can help flag patients who may benefit from osteoporosis assessment and treatment.
 
-Due to their volume (in terms of memory footprint), CT scans can pose challenges when are used as-is in training and inference of deep learning algorithms. 
-Therefore, our goal is first to obtain a more efficient representation of our region of interest (Fig. 1).
-We start by detecting the spinal cord region in the CT scan. Then, we reconstruct a sagittal view of the spine region. We use the reconstructed sagittal and cut the spine region further to small 3D patches that include the vertebrae area.
-Lastly, we use a novel sequence to sequence 3D architecture for the classification of the scan as positive or negative to VCF. 
-We evaluate several model architectures and representations. In addition, we present a framework combining an ensemble of models that achieves state of the art results, validated on a large data set. 
+At **Zebra Medical Vision**, I helped develop an automated system that locates the spinal cord, builds a compact representation of the spine, and analyzes sequences of 3D vertebral patches. The approach reduces the memory demands of processing full CT volumes while retaining information relevant to fracture detection.
 
-<img src="vcf-algo.png" alt="vcf" width="1000">
-*Figure 1. Vertebral Compression Fractures Detection Algorithm.*
+## Results
 
+The study compared representations and model architectures, including a 3D convolutional sequence-to-sequence network. An ensemble achieved a **patient-level AUC of 0.955** on the study's evaluation dataset.
 
-## Key Contributions
-- The proposed system has been employed by healthcare providers to support clinical osteoporosis management. 
-- State of the art performance in VCF classification.
-- Evaluation of different architectures and representations.
+<img src="vcf-algo.png" alt="Fracture-detection pipeline from CT scan through spine localization, compact representation, and 3D sequence classification" width="1000">
+
+*From a full CT scan to a compact spine representation and fracture prediction.*
+
+## Paper
+
+**3D Convolutional Sequence to Sequence Model for Vertebral Compression Fractures Identification in CT**\
+David Chettrit\*, Tomer Meir\*, Hila Lebel, Mila Orlovsky, Ronen Gordon, Ayelet Akselrod-Ballin, Amir Bar\
+*MICCAI, 2020* · *\*Equal contribution.*
+
+[Read the paper](https://arxiv.org/abs/2010.03739)

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Tomer Meir"
 title_separator          : "-"
 name                     : &name "Tomer Meir"
-description              : &description "PhD student at Shalit Lab - Technion - Israel Institute of Technology"
+description              : &description "Tomer Meir, PhD: machine learning and causal inference for healthcare, survival analysis, hybrid mechanistic models, and personalized medicine."
 url                      : https://tomer1812.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tomer1812/tomer1812.github.io"
@@ -62,33 +62,45 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "profile.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+    - https://scholar.google.co.il/citations?user=7NqD54oAAAAJ
+    - https://github.com/tomer1812
+    - https://www.linkedin.com/in/tomer-meir-936373111/
 
+
+research_topics:
+  - Machine learning for healthcare
+  - AI for healthcare
+  - Causal inference
+  - Personalized medicine
+  - Heterogeneous treatment effects
+  - Survival analysis
+  - Competing risks
+  - Hybrid mechanistic models
+  - Medical imaging
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag"
   google:
-    tracking_id          :
-
-ga_tracking_id: "G-7PX27W4GGB"
+    measurement_id       : "G-7PX27W4GGB"
 
 
 # Site Author
 author:
   name             : "Tomer Meir"
   avatar           : "profile.png"
-  bio              : "PhD student at Shalit Lab - Technion - Israel Institute of Technology"
+  bio              : "AI researcher | Machine learning for healthcare"
   location         : "Tel Aviv"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.co.il/citations?user=7NqD54oAAAAJ&hl=iw"
+  googlescholar    : "https://scholar.google.co.il/citations?user=7NqD54oAAAAJ&hl=en"
   email            : "tomer1812@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -191,6 +203,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   conferences:
+    output: true
+    permalink: /:collection/:path/
+  projects-hybrid:
     output: true
     permalink: /:collection/:path/
   projects-hte-tte:

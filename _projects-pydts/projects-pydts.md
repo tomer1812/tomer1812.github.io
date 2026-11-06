@@ -1,44 +1,36 @@
 ---
-layout: archive
-title: "Discrete-time Survival Analysis with Competing Risks"
+layout: research
+seo_title: "PyDTS: Survival Analysis with Competing Risks | Tomer Meir"
+title: "Survival analysis with competing events and PyDTS"
 permalink: /projects-pydts/
 author_profile: true
+excerpt: "Efficient discrete-time competing-risks regression and an open-source Python toolkit."
 ---
 
-Time-to-event analysis (survival analysis) is used when the outcome of interest is the time until a pre-specified event occurs. 
-Sometimes, the event can be one of several distinct event types, known as competing risks (events).
+**When will a patient leave intensive care, and what will happen next?** Discharge home, transfer to another facility, and in-hospital death are competing events. When time is recorded in days, modeling these outcomes requires methods that account for both discrete time and competing risks.
 
-<img src="Discrete-time.png" alt="Discrete-time" width="600">
-<br>
-*Figure 1. Number of observed events in each discrete-time for two competing events*
+We developed a **two-stage estimation procedure** for discrete-time competing-risks regression. Separating estimation of covariate effects from time-specific baseline parameters reduces computation and supports regularization and feature screening.
 
+## Evidence and application
 
-In this project, we developed a novel estimation procedure for analyzing discrete-time survival data with competing events.
- 
-The proposed approach offers two key advantages over existing procedures: 
-1. It accelerates the estimation process.
-2. It allows for straightforward integration and application of widely used regularized regression and screening methods.
+Simulation studies assessed estimation accuracy, confidence-interval coverage, and computation time. We applied the method to **25,170 MIMIC-IV ICU admissions**, modeling length of stay and the probabilities of discharge home, transfer, and in-hospital death over 28 days.
 
-In our work, [Discrete-time Competing-Risks Regression with or without Penalization](https://academic.oup.com/biometrics/article/81/2/ujaf040/8120014) (Meir and Gorfine, 2025) we illustrate the benefits of our proposed approach by conducting a comprehensive simulation study. Additionally, we showcase the utility of our procedure by estimating a survival model for the length of stay of patients hospitalized in the intensive care unit, considering three competing events: discharge to home, transfer to another medical facility, and in-hospital death.
+## PyDTS: from method to software
 
-In addition, we present PyDTS, an open-source Python package for discrete-time survival analysis with competing risks. We present PyDTS along with usage examples in [PyDTS: A Python Package for Discrete-Time Survival (Regularized) Regression with Competing Risks](https://arxiv.org/abs/2204.05731) (Meir et al. 2022) 
+**PyDTS** provides the methods in an open-source Python package, with penalized regression, time-dependent covariates, feature screening, cross-validation, discrimination and calibration metrics, and synthetic-data generation.
 
-## Key Contributions
-- The proposed approach performs well in terms of empirical bias and coverage rates.
-- It is significantly faster than existing methods
-- It allows including modern machine-learning model-selection procedures, such as regularization and screening. 
-- PyDTS, an open-source Python package for discrete-time survival analysis with competing events.
+[Documentation](https://tomer1812.github.io/pydts/) · [GitHub](https://github.com/tomer1812/pydts) · [PyPI](https://pypi.org/project/pydts/)
 
+<img src="fitting_time_fig.png" alt="Simulation comparison of fitting times for the two-stage and data-expansion estimation procedures" width="600">
 
+*Fitting-time comparison from the regression-methods study.*
 
-<img src="pydts_performance.png" alt="pydts_performance" width="600">
-<br>
-*Figure 2. Simulation results - comparison of performance between the proposed two-step approach and the one of (Lee et al., 2018)*
+## Papers
 
+**Discrete-time Competing-Risks Regression with or without Penalization**\
+Tomer Meir, Malka Gorfine\
+*Biometrics, 2025* · [Paper](https://doi.org/10.1093/biomtc/ujaf040) · [Study code](https://github.com/tomer1812/DiscreteTimeSurvivalPenalization)
 
-<img src="fitting_time_fig.png" alt="pydts_fitting_time" width="600">
-
-<br>
-*Figure 3. Simulation results - comparison of fitting time between the proposed two-step approach and the one of (Lee et al., 2018)*
-
-
+**PyDTS: A Python Package for Discrete-Time Survival Analysis with Competing Risks and Optional Penalization**\
+Tomer Meir, Rom Gutman, Malka Gorfine\
+*Journal of Open Source Software, 2025* · [Paper](https://doi.org/10.21105/joss.08815)
