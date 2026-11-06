@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="{{ site.locale | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include seo.html %}
+  <meta name="theme-color" content="#f8f7f2">
+  <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
+  {% include analytics.html %}
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header>
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.author.name }}<span>PhD · AI for Healthcare</span></a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.home %} aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/#research' | relative_url }}">Research</a>
+      <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+      <a class="contact" href="mailto:{{ site.author.email }}">Get in touch <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main-content" class="{% if page.home %}home{% else %}project{% endif %}">
+    {% if page.home %}
+      {% assign sections = content | split: '<!-- research -->' %}
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <h1 id="page-title">{{ page.title | escape }}</h1>
+          <div class="body">{{ sections[0] }}</div>
+        </div>
+        <figure class="portrait">
+          <img src="{{ '/images/profile.png' | relative_url }}" alt="Tomer Meir" width="170" height="170" decoding="async">
+          <figcaption>Tomer Meir<span>AI researcher · {{ site.author.location }}</span></figcaption>
+        </figure>
+      </section>
+      <div class="body home-body">{{ sections[1] | replace_first: '<ul>', '<ul class="research-list">' }}</div>
+    {% else %}
+      <a class="back" href="{{ '/#research' | relative_url }}">← Back to research</a>
+      <p class="eyebrow">{% if page.url == '/publications/' %}Research output{% else %}Tomer Meir / Research{% endif %}</p>
+      <h1>{{ page.title | escape }}</h1>
+      <article class="body">{{ content }}</article>
+    {% endif %}
+  </main>
+  <footer>
+    <span>© {{ site.time | date: '%Y' }} {{ site.author.name }}</span>
+    <div>
+      <a href="{{ site.author.googlescholar }}">Google Scholar ↗</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub ↗</a>
+      <a href="mailto:{{ site.author.email }}">Email ↗</a>
+    </div>
+  </footer>
+</body>
+</html>
