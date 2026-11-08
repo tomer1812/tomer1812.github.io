@@ -7,17 +7,23 @@ author_profile: true
 excerpt: "Efficient discrete-time competing-risks regression and an open-source Python toolkit."
 ---
 
-**When will a patient leave intensive care, and what will happen next?** Discharge home, transfer to another facility, and in-hospital death are competing events. When time is recorded in days, modeling these outcomes requires methods that account for both discrete time and competing risks.
+**For an intensive care team, knowing how long a patient may stay is only part of the question.** Will they go home, move to another facility, or die in hospital? Understanding both the timing and type of outcome can inform care planning and hospital resource needs.
 
-We developed a **two-stage estimation procedure** for discrete-time competing-risks regression. Separating estimation of covariate effects from time-specific baseline parameters reduces computation and supports regularization and feature screening.
+## Why the outcomes must be modeled together
 
-## Evidence and application
+These are *competing events*: once a patient has been discharged, in-hospital death is no longer a possible outcome for that admission. Hospital records also often measure time in whole days. Methods need to respect both features, rather than treating the data as ordinary prediction targets or precisely measured continuous event times.
 
-Simulation studies assessed estimation accuracy, confidence-interval coverage, and computation time. We applied the method to **25,170 MIMIC-IV ICU admissions**, modeling length of stay and the probabilities of discharge home, transfer, and in-hospital death over 28 days.
+## From a statistical method to a practical toolkit
 
-## PyDTS: from method to software
+We developed a **two-stage regression procedure** that separates estimation of patient-characteristic effects from time-specific baseline risks. This makes fitting more efficient and supports regularization and feature screening, which help identify useful predictors among many recorded variables.
 
-**PyDTS** provides the methods in an open-source Python package, with penalized regression, time-dependent covariates, feature screening, cross-validation, discrimination and calibration metrics, and synthetic-data generation.
+We then built **PyDTS**, an open-source Python package, so researchers can fit these models, select predictors, tune settings, and assess their predictions without implementing the methods from scratch. It also supports time-dependent covariates and generating synthetic data for new studies.
+
+## What we accomplished
+
+Simulation studies evaluated estimation accuracy and confidence-interval coverage while demonstrating faster fitting than the comparison procedure. In an application to **25,170 MIMIC-IV ICU admissions**, we modeled length of stay and the probabilities of discharge home, transfer, and in-hospital death over 28 days.
+
+Together, the methods and software provide a reproducible way to study when different patient outcomes occur, with a concrete application to intensive-care data.
 
 [Documentation](https://tomer1812.github.io/pydts/) · [GitHub](https://github.com/tomer1812/pydts) · [PyPI](https://pypi.org/project/pydts/)
 

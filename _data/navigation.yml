@@ -3,17 +3,17 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Hybrid Models"
+  - title: "Hybrid models"
     url: /projects-hybrid/
 
-  - title: "PyDTS"
-    url: /projects-pydts/
-
-  - title: "Treatment Effects"
+  - title: "Treatment effects"
     url: /projects-hte-tte/
 
-  - title: "COVID-19 Response"
+  - title: "Survival analysis & PyDTS"
+    url: /projects-pydts/
+
+  - title: "COVID-19 response"
     url: /projects-covid/
 
-  - title: "Compression Fractures"
+  - title: "Fracture detection"
     url: /projects-vcf/

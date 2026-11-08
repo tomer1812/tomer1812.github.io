@@ -7,15 +7,23 @@ author_profile: true
 excerpt: "MISTR: estimating heterogeneous treatment effects when survival outcomes are incompletely observed."
 ---
 
-**Which patients benefit most from a treatment, and by how much?** For survival outcomes, that question is difficult because follow-up often ends before the event occurs. These right-censored observations contain useful information that treatment-effect models need to account for.
+**A treatment that works well on average may benefit some patients much more than others.** Understanding those differences is a step toward personalized medicine. But when the outcome is time until disease progression or death, many patients have not experienced the event when follow-up ends. We know they remained event-free for a period, but not their eventual outcome. This incomplete observation is called *right-censoring*.
 
-We developed **MISTR (Multiple Imputation for Survival Treatment Response)**. It uses recursively imputed survival trees to create plausible completed datasets, estimates treatment effects in each, and combines the results. This avoids directly estimating the censoring distribution and makes existing treatment-effect learners usable with censored outcomes.
+## A motivating example: comparing HIV treatments
 
-## Evidence and contribution
+The ACTG 175 trial followed 2,139 people with HIV assigned to four treatment strategies. Beyond asking which treatment worked best overall, we asked how its benefit varied with patient characteristics. This requires comparing outcomes under alternative treatments while making use of patients whose follow-up was incomplete.
 
-- Improved estimation under heavy censoring in simulations and semi-synthetic experiments based on MIMIC-IV patient data.
-- An application to the ACTG 175 HIV trial, estimating how treatment benefits vary with patient characteristics.
-- An extension for unobserved confounding when a valid instrumental variable is available, evaluated on an unemployment-benefit dataset.
+Discarding those patients loses information; treating their last follow-up as the event time gives the wrong answer. Heavy censoring makes the problem especially difficult.
+
+## What we developed
+
+**MISTR (Multiple Imputation for Survival Treatment Response)** uses survival trees to generate several plausible completions of the missing event times. It estimates treatment effects in each completed dataset and combines the results. This allows treatment-effect learning without directly estimating the censoring distribution.
+
+## What we accomplished
+
+MISTR improved estimation under heavy censoring in simulations and semi-synthetic experiments based on MIMIC-IV patient data. We also applied it to the HIV trial to explore differences in treatment benefit, without claiming that individual treatment effects were directly observed.
+
+An extension uses a valid instrumental variable to address unobserved confounding. We evaluated that extension in simulations and an unemployment-benefit study, showing how the framework can extend beyond randomized clinical trials.
 
 <img src="figure1.png" alt="MISTR workflow: multiply impute censored survival outcomes, estimate treatment effects, and combine estimates" width="600">
 

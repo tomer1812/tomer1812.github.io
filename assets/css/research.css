@@ -555,3 +555,36 @@ nav a {
     gap: 16px;
   }
 }
+
+/* Direct access to the dedicated research pages. */
+.site-header {
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.project-navigation {
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.project-navigation__label {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  color: var(--muted);
+}
+.project-navigation a {
+  text-underline-offset: 5px;
+}
+@media (max-width: 700px) {
+  .project-navigation {
+    flex-basis: auto;
+    gap: 12px 20px;
+  }
+  .project-navigation__label {
+    flex-basis: 100%;
+  }
+}

@@ -11,13 +11,21 @@
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
-  <header>
+  <header class="site-header">
     <a class="brand" href="{{ '/' | relative_url }}">{{ site.author.name }}<span>PhD · AI for Healthcare</span></a>
     <nav aria-label="Main navigation">
       <a href="{{ '/' | relative_url }}"{% if page.home %} aria-current="page"{% endif %}>About</a>
       <a href="{{ '/#research' | relative_url }}">Research</a>
       <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
       <a class="contact" href="mailto:{{ site.author.email }}">Get in touch <span aria-hidden="true">↗</span></a>
+    </nav>
+    <nav class="project-navigation" aria-label="Main projects">
+      <span class="project-navigation__label">Main projects</span>
+      {% for item in site.data.navigation.main %}
+        {% if item.url contains '/projects-' %}
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | escape }}</a>
+        {% endif %}
+      {% endfor %}
     </nav>
   </header>
   <main id="main-content" class="{% if page.home %}home{% else %}project{% endif %}">
