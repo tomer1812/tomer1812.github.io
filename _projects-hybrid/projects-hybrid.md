@@ -1,7 +1,7 @@
 ---
 layout: research
 seo_title: "Hybrid Models for Intervention Outcomes | Tomer Meir"
-title: "Hybrid mechanistic–data-driven models for intervention outcomes"
+title: "Hybrid mechanistic–data-driven models for personalized time-dependent intervention outcomes"
 permalink: /projects-hybrid/
 author_profile: true
 excerpt: "Combining mechanistic knowledge and neural networks for robust prediction under time-dependent interventions."
