@@ -7,9 +7,7 @@ permalink: /publications/
 author_profile: false
 ---
 
-See my [Google Scholar profile](https://scholar.google.co.il/citations?user=7NqD54oAAAAJ&hl=en) for citation information and other versions of these papers.
-
-## Main publications (first/co-first author)
+## Main publications
 
 *An asterisk (\*) indicates shared first authorship.*
 

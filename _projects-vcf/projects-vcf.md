@@ -9,7 +9,7 @@ excerpt: "A compact spine representation and 3D sequence model for vertebral com
 
 **A CT scan taken for another reason can also reveal an overlooked vertebral fracture.** Such a finding can be an early sign of osteoporosis and an opportunity for further assessment and preventive treatment. The challenge is to identify these fractures reliably across large volumes of routine imaging.
 
-At **Zebra Medical Vision Ltd.**, we developed an [FDA-cleared](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192901) automated system for flagging suspected vertebral compression fractures in CT scans for clinical review.
+At **Zebra Medical Vision Ltd.**, we developed an FDA-cleared automated system for flagging suspected vertebral compression fractures in CT scans for clinical review.
 
 ## The approach, at a glance
 
