@@ -35,5 +35,3 @@ I have experience with a variety of data modalities, including patients' electro
 - **[Survival analysis and PyDTS](/projects-pydts/)** — Efficient methods and open-source tools for discrete-time outcomes with competing events, with an application to ICU length of stay. *Biometrics and JOSS, 2025.*
 - **[COVID-19 response](/projects-covid/)** — National symptom surveys to identify outbreak hotspots and prioritize testing, modeling of hospital demand and mortality, and studies of population-level vaccine impact. *Nature Communications and Nature Medicine, 2021.*
 - **[Fracture detection in CT](/projects-vcf/)** — Deep learning for identifying vertebral compression fractures in routine CT imaging. *MICCAI, 2020.*
-
-[Publications](/publications/) · [Google Scholar](https://scholar.google.co.il/citations?user=7NqD54oAAAAJ&hl=en) · [GitHub](https://github.com/tomer1812) · [Email](mailto:tomer1812@gmail.com)
