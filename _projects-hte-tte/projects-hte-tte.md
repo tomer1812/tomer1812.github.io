@@ -7,7 +7,7 @@ author_profile: true
 excerpt: "MISTR: estimating heterogeneous treatment effects when survival outcomes are incompletely observed."
 ---
 
-**A treatment that works well on average may benefit some patients much more than others.** Understanding those differences is a step toward personalized medicine. But when the outcome is time until disease progression or death, many patients have not experienced the event when follow-up ends. We know they remained event-free for a period, but not their eventual outcome. This incomplete observation is called *right-censoring*.
+**A treatment that works well on average may greatly benefit some patients while having adverse effects in others.** Understanding those differences is a step toward personalized medicine. But when the outcome is the time until an event, such as disease progression or death, many patients may not have experienced the event when follow-up ends. We know they remained event-free for a period, but not their eventual outcome. This incomplete observation is called *right-censoring*.
 
 ## A motivating example: comparing HIV treatments
 
