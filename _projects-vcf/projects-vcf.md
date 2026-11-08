@@ -7,11 +7,9 @@ author_profile: true
 excerpt: "A compact spine representation and 3D sequence model for vertebral compression fracture detection."
 ---
 
-**A CT scan taken for another reason can also reveal an overlooked vertebral fracture.** Such a finding can be an early sign of osteoporosis and an opportunity for further assessment. The challenge is to identify these fractures reliably across large volumes of routine imaging.
+**A CT scan taken for another reason can also reveal an overlooked vertebral fracture.** Such a finding can be an early sign of osteoporosis and an opportunity for further assessment and preventive treatment. The challenge is to identify these fractures reliably across large volumes of routine imaging.
 
-## Finding useful signals in existing scans
-
-At **Zebra Medical Vision**, I helped develop an automated system for identifying vertebral compression fractures in CT. The motivating use case is to flag scans for further review, helping clinicians find patients who may benefit from osteoporosis evaluation.
+At **Zebra Medical Vision Ltd.**, we developed an [FDA-cleared](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192901) automated system for flagging suspected vertebral compression fractures in CT scans for clinical review.
 
 ## The approach, at a glance
 
@@ -20,8 +18,6 @@ Processing an entire 3D scan is computationally demanding. Our system first loca
 ## What we accomplished
 
 We compared different representations and model architectures. An ensemble achieved a **patient-level AUC of 0.955**, measuring how well it distinguished scans with and without fractures in the study's evaluation dataset.
-
-The work demonstrated a way to extract clinically relevant findings from existing CT scans, with potential to support earlier osteoporosis assessment.
 
 <img src="vcf-algo.png" alt="Fracture-detection pipeline from CT scan through spine localization, compact representation, and 3D sequence classification" width="1000">
 
