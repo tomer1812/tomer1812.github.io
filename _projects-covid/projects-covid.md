@@ -19,8 +19,6 @@ Periods with more than 500 severe or critical patients hospitalized nationally w
 
 *Hospital burden and observed versus predicted mortality across the study period.*
 
-[Hospital-load model code](https://github.com/tomer1812/covid19-israel-multi-state-hospitalization-model)
-
 ## Publications
 
 **[Hospital load and increased COVID-19 related mortality in Israel](https://www.nature.com/articles/s41467-021-22214-z)**\
