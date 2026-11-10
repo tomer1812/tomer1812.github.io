@@ -17,9 +17,9 @@ I completed my PhD at the Technion's Faculty of Data and Decision Sciences under
 
 My research background includes:
 
-- **Zebra Medical Vision Ltd.:** Prediction of clinical findings in CT scans using computer vision and deep learning.
-- **Segal Lab, Weizmann Institute of Science:** COVID-19 response research, applying prediction and causal inference methods to tabular and time-to-event data.
 - **PhD, Technion:** Heterogeneous treatment-effect estimation in time-to-event data, survival analysis, and physical AI — hybrid mechanistic–data-driven models that combine scientific knowledge with deep learning to model system dynamics.
+- **Segal Lab, Weizmann Institute of Science:** COVID-19 response research, applying prediction and causal inference methods to tabular and time-to-event data.
+- **Zebra Medical Vision Ltd.:** Prediction of clinical findings in CT scans using computer vision and deep learning.
 
 I have experience with a variety of data modalities, including patients' electronic health records, longitudinal time series, survival data, and medical imaging.
 
